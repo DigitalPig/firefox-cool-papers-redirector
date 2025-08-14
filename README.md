@@ -14,19 +14,25 @@ A Firefox extension that adds a context menu option to redirect from arXiv paper
 
 ## Installation
 
+### Quick Install
+
+1. **Download the latest release:**
+   - Go to [Releases](https://github.com/DigitalPig/firefox-cool-papers-redirector/releases)
+   - Download `cool-papers-redirector-v1.0.0.zip`
+
+2. **Install in Firefox:**
+   - Open Firefox → `about:debugging`
+   - Click "This Firefox" → "Load Temporary Add-on"
+   - Select the downloaded `.zip` file
+
 ### From Source (Development)
 
-1. Clone or download this repository
-2. Add placeholder icons to the `icons/` directory:
-   - `icon-16.png` (16x16 pixels)
-   - `icon-48.png` (48x48 pixels) 
-   - `icon-128.png` (128x128 pixels)
-3. Open Firefox and navigate to `about:debugging`
-4. Click "This Firefox" in the left sidebar
-5. Click "Load Temporary Add-on"
-6. Select the `manifest.json` file from this directory
+```bash
+git clone https://github.com/DigitalPig/firefox-cool-papers-redirector.git
+cd firefox-cool-papers-redirector
+```
 
-The extension will be loaded temporarily and will remain active until you restart Firefox.
+Then open Firefox → `about:debugging` → "This Firefox" → "Load Temporary Add-on" → Select `manifest.json`
 
 ### For Permanent Installation
 
@@ -54,6 +60,20 @@ To make the extension permanent, you would need to:
 - `icons/` - Directory for extension icons (placeholder files needed)
 - `README.md` - This documentation file
 
-## Note
+## Repository
 
-This extension currently uses placeholder icon references. You'll need to add actual icon files to the `icons/` directory for proper functionality.
+- **GitHub:** https://github.com/DigitalPig/firefox-cool-papers-redirector
+- **Issues:** Report bugs or request features
+- **Releases:** Download packaged extension files
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Test thoroughly
+5. Submit a pull request
+
+## License
+
+MIT License - see LICENSE file for details
